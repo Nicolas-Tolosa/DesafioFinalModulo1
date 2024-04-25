@@ -1,3 +1,21 @@
+*{
+    font-family: "onest";
+    color: rgb(204, 213, 226);
+    font-weight: 500px;
+}
+
+main, nav, body{
+    background-image: url(../../assets/img/background.jpg);
+}
+
+h2, h3, h4{
+    padding-block: 5px;
+}
+
+h2{
+    padding-block: 20px;
+}
+
 #chile-flag{
     width: 20px;
     height: 20px;
@@ -20,15 +38,26 @@
     flex-direction: row;
     align-self: center;
     justify-content: center;
-    width: 112px;
-    height: 112px;
+    width: 130px;
+    height: 130px;
 }
 #cards-section{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#about-me div img{
-    width: 200px;
-    height: 200px;
+#about-me img{
+    width: 300px;
+    transform: rotate(3deg);
+}
+
+#cards-section div div div img{
+    height: 100%;
+}
+
+
+footer{
+    display: flex;
+    padding-top: 20px;
+    background-color: #01031A ;
 }
